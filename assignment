@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short profile</title>
+</head>
+<body>
+    
+    <div style="position: relative; left: 30px; bottom: -10px">
+        <h4 class="supper">Super Folio</h4>
+    </div>
+    <ul>
+        <li><a class="active" href="#home">Contact</a></li>
+        <li><a  href="#Experience">Experience</a></li>
+        <li><a  href="#portfolio">Portfolio</a></li>
+        <li><a  href="#about">Skills</a></li>
+        <li><a  href="#Services">Services</a></li>
+        <li><a  href="#About">About</a></li>
+    </ul>
+
+
+    <div>
+        <img class="boy" style="height: 13cm;" src="https://cdn3d.iconscout.com/3d/premium/thumb/young-man-sitting-and-using-laptop-5892974-4897576.png" alt="boy using laptop">
+    </div>
+    <div>
+        <p class="hello">HELLO!</p>
+    </div>
+
+    <div class="gopala" style="font-size: larger;">I'm </div>
+
+    <div class="skill">Software developer & Database Adminitrator</div>
+
+    <div> <img class="social" style="height: 1cm;" src="https://static.vecteezy.com/system/resources/previews/003/775/685/original/social-media-icons-set-facebook-instagram-twitter-logos-free-vector.jpg" alt="social media image">
+    </div>
+
+    <div> <img class="touch" style="height: 1cm;" src="https://thumbs.dreamstime.com/b/vector-illustration-get-started-button-web-gold-yellow-button-white-background-get-started-button-119900961.jpg" alt="this is logo">
+    </div>
+
+    <div> <img class="cont" style="height: 1.3cm;" src="https://t3.ftcdn.net/jpg/03/59/13/96/360_F_359139610_OLWQqrmpX8rYm01mtaJRgQxDijSDRaQg.jpg" alt=""></div>
+
+    <div>
+        <p class="pers">
+            
+            Name:<br>
+            Address:<br>
+            Mobile no:9876543210<br>
+            Nationality:Indian<br>
+            Gender:Male<br>
+            Qualification:B.tech-IT<br>
+        </p>
+    </div>
+            
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            
+            background-color: wheat;
+        }
+
+        li {
+            float: right;
+            position: relative; top:-20px; right: 2cm;
+            font-family:'Courier New', Courier, monospace;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 10px ;
+            text-decoration: none;
+        }
+        .supper {
+            font-family: cursive;
+        }
+
+        .hello{
+            position: relative; top: -10cm; left:70%;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .gopala{
+            position: relative; top: -9.7cm; left:70%;
+            font-weight: 900;
+            
+        }
+
+        .skill{
+            position: relative; top: -9cm; left:70%;
+
+        }
+
+        .boy{
+            position: relative;  top: 1.7cm; left:12%;
+            
+        }
+
+        .social{
+            position: relative;  top: -8.5cm; right: -70%;
+        }
+
+        .pers{
+            word-spacing: 10px;
+            position: relative;  top: -7cm; right: -70%;
+            font-size: 20px;
+            font-style:inherit;
+            
+        }
+
+
+        .touch{
+            position: relative;  top: -9.5cm; right: -78%;
+        }
+
+        .cont{
+            position: relative;  top: -6.5cm; right: -69%;
+        }
+
+    </style>
+</body>
+</html>
